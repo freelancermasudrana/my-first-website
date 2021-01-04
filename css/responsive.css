@@ -1,0 +1,22 @@
+@media (min-width:450px) and (max-width:1024px){
+    .slide-area {
+        margin: 0 auto;
+        width: 100%;
+        display: block;
+        height: 403px;
+        background-color:#ddd;
+        padding-top: 86px;
+        box-shadow: 5px 5px 5px #ddd;
+        border-radius: 15px;
+    }
+}
+@media(max-width:982px){
+    .card.mx-auto.card-top{
+        left:235px;
+    }
+}
+@media(max-width:767px){
+    .card.mx-auto.card-top{
+        left:138px;
+    }
+}

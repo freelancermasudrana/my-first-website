@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+body p{
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:active {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+#navbarSupportedContent .ml-auto{
+    margin-left: auto !important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(233 156 22 / 90%);
+}
+/* ==================End of Navigation CSS ================== */
+.home_banner {
+    background-image: url(../image/home-main-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 609px;
+}
+section.home_banner .content a {
+    text-decoration: none;
+    padding: 15px 29px;
+    background-color: #D06119;
+    color: white;
+    font-size: 17px;
+    border-radius: 11px;
+}
+/* ==================END OF FIRST ABOUT INTRO CSS================================== */
+.secound-intro{
+    background-image: url(../image/short-intro-bg-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+section.secound-intro img {
+    float: right;
+    margin-top: 26px;
+}
+.article_video video {
+    background: tomato;
+    padding: 6px;
+    border-radius: 11px;
+}
+/* .card-body.car-positon {
+    position: absolute;
+    top: -57px;
+    box-shadow: 2px 2px 5px #a19e9e;
+}
+.card-relativ {
+    position: relative;
+} */
+/* =============END OF MOST RECENT ARTICLE PART CSS================= */
+.slide-area {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+    height: 316px;
+    background-color:#ddd;
+    padding-top: 86px;
+    box-shadow: 5px 5px 5px #ddd;
+    border-radius: 15px;
+}
+.slide-area .slide-img {
+    width: 37%;
+    float: left;
+}
+.slide-area .slide-text {
+    width: 50%;
+    float: left;
+}
+.slide-area .slide-text {
+    font-family: 'Noto Serif',serif;
+    font-size: 20px;
+}
+.slide-area img {
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: -20px auto;
+
+}
+.slide-text{
+    position: relative;
+}
+.slide-text pre {
+    display: block;
+    text-align: right;
+}
+.slide-text .quite-mark {
+    background-image: url(../image/quate-mark.png);
+    width: 64px;
+    height: 55px;
+    display: block;
+    position: absolute;
+    left: -91px;
+    top: -34px;
+}
+/* =================END OF CLIENT REVIEW=============================== */
+.slider{
+    background-image: url(../image/service-slide-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 682px;
+    background-position: center center;
+    width: 100%;
+}
+.slider1{
+    background-image: url(../image/service-slide-new012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 682px;
+    background-position: center center;
+    width: 100%;
+
+}
+.slider2{
+    background-image: url(../image/service-slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 682px;
+    background-position: center center;
+    width: 100%;
+
+}
+.col-md-6.padding-top {
+    padding-top: 201px;
+}
+/* =============END OF SLIDER CSS ============= */
+.footer-bg{
+    background-color: black;
+}
+.footer-img {
+    width: 164px;
+    height: 136px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 0px 0px 105px 105px;
+}
+.footer-img img {
+    padding-top: 31px;
+}
+.social-icon a {
+    padding: 5px 8px;
+    border: 2px solid white;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 23px;
+    color: white;
+}
+.row.text-white.footer-border a {
+    text-decoration: none;
+    color: white;
+}
+.row.text-white.footer-border {
+    border-top: 1px solid white;
+    padding-top: 14px;
+}
+.row.text-white.footer-border .text-right {
+    text-align: right;
+}
+/* ==========================================END OF HOME PAGE ================================================ */
+.about-bg {
+    background-image: url(../image/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 597px;
+    width: 100%;
+}
+.about-secound-bg{
+    background-image: url(../image/stage-1-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 756px;
+    width: 100%;
+}
+.container-fluid.padding-left {
+    padding-left: 0;
+}
+/* ====================Start full background of about ============================= */
+.hitting-bg{
+    background-image: url(../image/hitting-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 100%;
+}
+.hitting-text {
+    padding-top: 102px;
+}
+.circle-img img {
+    width: 300px;
+    height: 300px;
+}
+/* ================ END SEVEN ROW OF CSS================== */
+.stage2-bg{
+    background-image: url(../image/stage-2-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    width: 100%;
+}
+.guru-img img {
+    width: 371px;
+    height: 359px;
+    display: block;
+    float: right;
+}
+/* ================ END EIGHT ROW OF CSS================== */
+.col-md-6.pading-right {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container-fluid.full_bg {
+    background-color: #ddd;
+}
+.mySelfText {
+    padding: 127px 25px;
+    padding-bottom: 0px;
+}
+/* ================ END NINE ROW OF CSS================== */
+.stage3-bg{
+    background-image: url(../image/stage-3-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+.transformation-text {
+    display: block;
+    width: 1140px;
+
+}
+.transformation-text ul li {
+    list-style-type: square;
+}
+section.transformation-bg {
+    background-color: #ddd;
+}
+/* ================ END ELEVEN ROW OF CSS================== */
+.fifteen-bg{
+    background-color: black;
+}
+/* ================ END LASTROW OF CSS================== */
+.call-img img {
+    width: 300px;
+    height: 300px;
+}
+/* ========================================END OF ABOUT PART CSS================================================= */
+.master-classBg{
+    background-image: url(../image/masterclass-bg-new.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+}
+.masterClass.text-center.text-white {
+    padding-top: 174px;
+}
+/* ======================================END OF FREETRAINING PAGE PART CSS======================================== */
+.result-bg{
+    background-image: url(../image/results-bg-1-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 284px;
+}
+.result-full-bg{
+    background-color: #ddd;
+}
+.result-imgtext {
+    width: 655px;
+    height: auto;
+    background-color: white;
+    padding: 25px 36px 29px 53px;
+    margin-top: 78px;
+    position: absolute;
+    left: -162px;
+}
+.pztion-rel{
+    position: relative;
+}
+.row.bx-shadow {
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 0px 18px black;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    border-radius: 15px;
+}
+.men-bg{
+    background-image: url(../image/men-website02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 507px;
+}
+.last-row {
+    padding-top: 208px;
+}
+/* ======================================END OF CLIENT RESULT PAGE PART CSS================================ */
+/* ======================================START OF BLOG PAGE PART CSS======================================== */
+.blog-bg{
+    background-image: url(../image/blog-list-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 507px;
+}
+.col-md-12.padding-top {
+    padding-top: 164px;
+}
+.search-box input {
+    padding: 12px 26px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 15px;
+}
+.search-box .hover {
+    background-color: #ff7f2d;
+    border-radius: 24px;
+    padding: 12px 39px;
+}
+.search-box {
+    background-color: #ddd;
+    display: inline-block;
+    border-radius: 24px;
+}
+.most-link {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.most-img {
+    width: 15%;
+    margin-right: 5%;
+    float: left;
+}
+.most-text {
+    width: 80%;
+    float: left;
+    padding-left: 16px;
+}
+.col-sm-4.box-shado {
+    box-shadow: 0px 1px 10px;
+    border-radius: 9px;
+}
+.most-link a:hover {
+    color: red;
+}
+
+.most-link a {
+    text-decoration: none;
+    color: black;
+}
+.card.box-shado {
+    box-shadow: 0px 1px 10px;
+    border-radius: 9px;
+}
+ul.pagination.justify-content-center .page-item .page-link {
+    padding: 7px 18px;
+    border-radius: 76%;
+}
+ul.pagination.justify-content-center .page-item {
+    padding: 9px;
+}
+.page-link{
+    border: 2px solid #ff7f2d;
+}
+.page-link:hover {
+    z-index: 2;
+    color: #0a58ca;
+    background-color: #ff7f2d;
+    border-color: #dee2e6;
+}
+ul.pagination.justify-content-center .page-item.active .page-link{
+    background-color: #ff7f2d;
+    border: 1px solid #ff7f2d;
+}
+/* ==================================END OF BLOG CSS PART====================================== */
+.contact-bg{
+    background-image: url(../image/contact-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 507px;
+}
+.row.text-center.padding-top {
+    padding-top: 278px;
+}
+.row.inputt input {
+    width: 100%;
+    padding: 15px 0px;
+}
+.question .button {
+    text-decoration: none;
+    display: block;
+    border: 1px solid red;
+    color: #ff7f2d;
+}
+.question .content:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #ff7f2d;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    z-index: -1;
+}
+.question .content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 13px 17px;
+    z-index: 100;
+    overflow: hidden;
+    display: block;
+}
+.question .button:hover .content{
+    color:white;
+}
+.question .button:hover .content:before{
+    left: 0;
+    transition: all 0.6s ease;
+}
+.question {
+    padding-bottom: 10px;
+}
+form.addition input {
+    height: 0px;
+}
+
+form.addition button {
+    width: 58px;
+    padding: 0px;
+    height: 2px;
+    border: none;
+}
+.col-md-4.pt-5.submit input {
+    width: 50%;
+    background-color: #ff7f2d;
+    border: none;
+    background: #ff7f2d;
+    border-radius: 9px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+/* =============End of contact css part========= */
+.facebook-bg{
+    background-image: url(../image/facebook-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 507px;
+}
+.fb-paddingTop{
+    padding-top: 100px;
+}
+.fb-paddingTop .text-clor{
+    color: #ff7f2d!important;
+}
+a.fb-icon i {
+    padding-right: 5px;
+}
+a.fb-icon {
+    background-color: #4267b2;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+.contact-card {
+    position: relative;
+}
+.card.mx-auto.card-top {
+    position: absolute;
+    left: 414px;
+    top: -190px;
+}
+.container.card-height {
+    width: 100%;
+    height: 344px;
+}
